@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Container */
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 25px;
+}
+
+/*NAVBAR SECTION*/
+.navbar{
+    margin: -20px;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo img{
+    width: 125px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a{
+    cursor:pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: #7b2cbf;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    cursor:pointer;
+    color: #000;
+}
+
+.row{
+     margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col-2 p{
+    font-weight: bold;
+    color: #7b2cbf;
+    font-size: 16px;
+}
+
+/* Image */
+.col-2 img{
+    max-width: 65%;
+    margin-top: 80px;
+    padding: 20px 0;
+}
+
+/* Button */
+.btn{
+    display: inline-block;
+    background: #7b2cbf;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #5a189a;
+    transform: translateY(-2px);
+}
+
+.btn2{
+    display: inline-block;
+    background:#259eb0;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn2:hover{
+    background:#bcb119;
+    transform: translateY(-2px);
+}
+
+.header{
+    background: radial-gradient(#33C5EE,#8C918B);
+}
+
+.header row{
+    margin-top: 70px;
+
+}
+
+.fa-cart-arrow-down, .fa-heart, .fa-user{
+    font-size: 30px;
+    color: #5a189a;
+}
+
+.fa-star{
+    color: #FFDF00;
+}
+
+.fa-truck{
+    font-size: 25px;
+    display: inline-block;
+    color:brown;
+}
+.price{
+   
+    font-size: 20px;
+}
